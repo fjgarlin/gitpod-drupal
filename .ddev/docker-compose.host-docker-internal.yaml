@@ -3,4 +3,4 @@ version: "3.6"
 services:
   web:
     extra_hosts:
-    - "host.docker.internal:10.52.15.185"
+    - "host.docker.internal:10.52.5.5"

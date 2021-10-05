@@ -40,3 +40,9 @@ COMPOSEEND
 ddev config global --instrumentation-opt-in=true --router-bind-all-interfaces=true
 
 ddev start
+
+# Drupal specific
+ddev composer install
+ddev drush -y si
+
+ddev drush -y en admin_toolbar admin_toolbar_tools
